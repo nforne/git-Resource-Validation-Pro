@@ -6,3 +6,4 @@
 6 Go to SSM and creat a run command document with the edited ssmdc
 7 You can edit the shell script to suit your use case
 8 Exicute the run command document on the the EC2 instances and check your emial notification
+9 And then there is Distributed Load Testing (DLT-t-cfn)
