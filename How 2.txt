@@ -1,0 +1,8 @@
+1 Upload shell script to an s3 bucket
+2 Creat an EC2 iam role with EC2fullAccess, SNSfullAccess and SSMfullAccess
+3 Spin up a couple of instances and attach the role to them
+4 Create and SNS topic and subsribe to it with your emial
+5 copy the topic arn and the s3 bucket name and edit the ssmdc accordingly
+6 Go to SSM and creat a run command document with the edited ssmdc
+7 You can edit the shell script to suit your use case
+8 Exicute the run command document on the the EC2 instances and check your emial notification
